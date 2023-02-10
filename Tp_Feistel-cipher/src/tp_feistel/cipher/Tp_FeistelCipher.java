@@ -85,7 +85,7 @@ public class Tp_FeistelCipher {
         System.out.println("G1 = D0 ⊕(G0 ∨k1) ");
         System.out.print("On sait déjà que DO = ");
         System.out.println(tableauDeDonnees[7] + "|" + tableauDeDonnees[3] + "|" + tableauDeDonnees[1] + "|" + tableauDeDonnees[5]);
-        System.out.print("On sait également que GO = ");
+        System.out.print("Nous savons que également que GO = ");
         System.out.println(tableauDeDonnees[4] + "|" + tableauDeDonnees[6] + "|" + tableauDeDonnees[0] + "|" + tableauDeDonnees[2]);
         System.out.print("Puis k1 = ");
         System.out.println(tableauDeDonnees[2] + "|" + tableauDeDonnees[4] + "|" + tableauDeDonnees[6] + "|" + tableauDeDonnees[0]);
@@ -147,7 +147,7 @@ public class Tp_FeistelCipher {
         System.out.println("============================");
         System.out.println("2ème Round");
         System.out.println("D2 = P(G1)⊕k2");
-        System.out.print("Or on sait que G1 = ");
+        System.out.print("Or nous savons que G1 = ");
         if ((tableauDeDonnees[1] == 0 && tableauDeDonnees[7] == 0) || (tableauDeDonnees[1] == 1 && tableauDeDonnees[7] == 1)) {
             System.out.print(0 + "|");
         } else {
