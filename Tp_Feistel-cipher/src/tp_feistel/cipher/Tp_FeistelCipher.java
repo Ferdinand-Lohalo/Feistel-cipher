@@ -196,6 +196,10 @@ public class Tp_FeistelCipher {
             System.out.print(1 + "|");
         }
         System.out.println("");
+        
+        System.out.println("====================================");
+        System.out.println("Réaliser par DJUNGU LOHALO FERDINAND");
+        System.out.println("=====================================");
     }
     
 }
