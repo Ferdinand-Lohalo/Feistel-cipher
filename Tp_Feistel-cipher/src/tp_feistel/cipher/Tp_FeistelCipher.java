@@ -29,6 +29,56 @@ public class Tp_FeistelCipher {
             System.out.print("La valeur de permutation position " + w + ":");
             pi[w] = clavier1.nextInt();
         }
+        
+        //=========================SUITE==============================
+        //Affichage de la permutation 
+        System.out.print(" π = ");
+        for (int w = 0; w < 8; w++) {
+            System.out.print(pi[w] + "|");
+        }
+        System.out.println("");
+        System.out.println("----------------------------");
+        System.out.print("π (N) = ");
+        System.out.print(tableauDeDonnees[4] + "|" + tableauDeDonnees[6] + "|" + tableauDeDonnees[0] + "|" + tableauDeDonnees[2] + "|" + tableauDeDonnees[7] + "|" + tableauDeDonnees[3] + "|" + tableauDeDonnees[1] + "|" + tableauDeDonnees[5]);
+        System.out.println("");
+        System.out.println("----------------------------");
+        System.out.println("On sait que N = GO || DO de taille 4");
+        System.out.print("GO = ");
+        System.out.println(tableauDeDonnees[4] + "|" + tableauDeDonnees[6] + "|" + tableauDeDonnees[0] + "|" + tableauDeDonnees[2]);
+        System.out.println("");
+        System.out.print("DO = ");
+        System.out.println(tableauDeDonnees[7] + "|" + tableauDeDonnees[3] + "|" + tableauDeDonnees[1] + "|" + tableauDeDonnees[5]);
+        System.out.println("----------------------------");
+        System.out.println("1er Round : D1 = P(GO) ⊕ K1 , Nous savons  que P = 2013");
+        System.out.print("P (GO) = ");
+        System.out.println(tableauDeDonnees[0] + "|" + tableauDeDonnees[4] + "|" + tableauDeDonnees[6] + "|" + tableauDeDonnees[2]);
+        System.out.println("");
+        System.out.print("K1 = ");
+        System.out.println(tableauDeDonnees[2] + "|" + tableauDeDonnees[4] + "|" + tableauDeDonnees[6] + "|" + tableauDeDonnees[0]);
+        System.out.println("");
+        System.out.print("D1 = P(GO) ⊕ K1 = ");
+        if (tableauDeDonnees[0] == tableauDeDonnees[2]) {
+            System.out.print(0 + "|");
+        } else {
+            System.out.print(1 + "|");
+        }
+        if (tableauDeDonnees[4] == tableauDeDonnees[4]) {
+            System.out.print(0 + "|");
+        } else {
+            System.out.print(1 + "|");
+        }
+        if (tableauDeDonnees[6] == tableauDeDonnees[6]) {
+            System.out.print(0 + "|");
+        } else {
+            System.out.print(1 + "|");
+        }
+        if (tableauDeDonnees[2] == tableauDeDonnees[0]) {
+            System.out.print(0 + "|");
+        } else {
+            System.out.print(1 + "|");
+        }
+        System.out.println("");
+        System.out.println("----------------------------");
     }
     
 }
