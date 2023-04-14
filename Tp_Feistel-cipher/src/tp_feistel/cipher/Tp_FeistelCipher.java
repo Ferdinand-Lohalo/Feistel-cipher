@@ -198,7 +198,7 @@ public class Tp_FeistelCipher {
         System.out.println("");
         
         System.out.println("====================================");
-        System.out.println("Réaliser par DJUNGU LOHALO FERDINAND");
+        System.out.println("Réaliser par KUMALA SADISA BEN ");
         System.out.println("=====================================");
     }
     

@@ -7,7 +7,7 @@ Assisté par:
     => Doctorant Junior KANINGINI
     => Assistant Jacques MAYOMBO et
     => Assistant Emmanuel MBAMBA.
-==================================================
+
 Cours: Transmission des données et sécurité informatique.
 Sujet: Implémentation des 3 algorithmes (Génération des clés, Chiffrement et Déchifrement).
         "En implémentant ces 3 algo, sachant que l'utilisateur pourra définir sa propre permutation de longueur 8 et aussi l'ordre de décalage."
