@@ -8,6 +8,10 @@ Assisté par:
     => Assistant Jacques MAYOMBO et
     => Assistant Emmanuel MBAMBA.
 ==================================================
+Cours: Transmission des données et sécurité informatique.
+Sujet: Implémentation des 3 algorithmes (Génération des clés, Chiffrement et Déchifrement).
+        "En implémentant ces 3 algo, sachant que l'utilisateur pourra définir sa propre permutation de longueur 8 et aussi l'ordre de décalage."
+
 VOICI LES ETAPES A SUIVRE POUR ARRIVER A EXECUTER NOTRE PROGRAMME DANS CHEZ VOUS
 
 1) Système d'exploitation
